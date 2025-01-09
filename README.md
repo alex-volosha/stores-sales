@@ -27,7 +27,8 @@ And now you can run `python predict.py` script.
 Open a new terminal and send request to running predict.py request by calling `python item.py`  
 
 ## 2. Run the app locally within a Docker container  
-⚠️ Warning: First make sure Docker is installed and running so you can connect it. Check Docker website to Install Docker Engine  
+> :warning: **Warning:** First make sure Docker is installed and running so you can connect it. 
+<a href="https://docs.docker.com/engine/install/" target="_blank">Check Docker website to Install Docker Engine</a>  
 
 - Build docker image  
 (No need to run pipenv, Dockerfile will do it itself) by running this command in your terminal  
@@ -41,7 +42,7 @@ Open a new terminal and send request to running predict.py request by calling `p
 And you will get the prediction of quantity to be sold (notice it might not be the whole numbers, but selling in bulks of unpacked goods)  
 
 
-Options: As shown in the features importance chart, some of the main important features are store_format and item_class for example.  
+> :bulb: **Options:** As shown in the features importance chart, some of the main important features are store_format and item_class for example.  
 So, by changing the variable in the `item.py` file from:  
 'store_format' : 'Format-1'  
 to:  
