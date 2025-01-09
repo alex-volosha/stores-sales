@@ -20,6 +20,7 @@ dataclasses-json = "==0.6.4"
 json5 = "==0.9.14"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
