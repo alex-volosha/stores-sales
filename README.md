@@ -14,7 +14,7 @@
 * `git clone https://github.com/alex-volosha/stores-sales/`  
 
 ## 1. Download data from Kaggle competition page: 
-<a href="https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/data" target="_blank">Opens in new tab</a>
+<a href="https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/data" target="_blank">KAggle Stores Sales data</a>
 
 After downloading and unzipping data you need add data folder to this repo with the same folder name it was unziped 'ml-zoomcamp-2024-competition' 
 
