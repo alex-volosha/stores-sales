@@ -1,5 +1,6 @@
 # Retail store sales prediction
-* The dataset I used is from our Kaggle competition: https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/data  
+* The dataset I used is from our Kaggle competition: https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/data
+
 
 * This dataset contains sales information from four stores of one of the retailers over 25 months. Participants are expected to use these files to develop models that can predict customer demand.   
 
@@ -12,7 +13,12 @@
 ## Run the project:  
 * `git clone https://github.com/alex-volosha/stores-sales/`  
 
-## 1. Run the app as a web service locally:  
+## 1. Download data from Kaggle competition page: 
+<a href="https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/data"
+
+After downloading and unzipping data you need add data folder to this repo with the same folder name it was unziped 'ml-zoomcamp-2024-competition' 
+
+## 2. Run the app as a web service locally:  
 After cloning the repo you can install virtual environment dedicated for this project with all dependancies.  
 (Make sure to go to the project directory in you terminal before you run this):  
 `pip install pipenv`  
@@ -26,7 +32,7 @@ Narrow down into newly created virtual environment:
 And now you can run `python predict.py` script.
 Open a new terminal and send request to running predict.py request by calling `python item.py`  
 
-## 2. Run the app locally within a Docker container  
+## 3. Run the app locally within a Docker container  
 > :warning: **Warning:** First make sure Docker is installed and running so you can connect it. 
 <a href="https://docs.docker.com/engine/install/" target="_blank">Check Docker website to Install Docker Engine</a>  
 
