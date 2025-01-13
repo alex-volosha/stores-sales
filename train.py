@@ -45,18 +45,18 @@ data = con.execute("""
         c.class_name,
         st.format as store_format,
         st.city
-    FROM read_csv_auto('data/sales.csv') s
-    LEFT JOIN read_csv_auto('data/catalog.csv') c ON s.item_id = c.item_id
-    LEFT JOIN read_csv_auto('data/stores.csv') st ON s.store_id = st.store_id
-    LEFT JOIN read_csv_auto('data/discounts_history.csv') d 
+    FROM read_csv_auto('ml-zoomcamp-2024-competition/sales.csv') s
+    LEFT JOIN read_csv_auto('ml-zoomcamp-2024-competition/catalog.csv') c ON s.item_id = c.item_id
+    LEFT JOIN read_csv_auto('ml-zoomcamp-2024-competition/stores.csv') st ON s.store_id = st.store_id
+    LEFT JOIN read_csv_auto('ml-zoomcamp-2024-competition/discounts_history.csv') d 
         ON s.item_id = d.item_id 
         AND s.date = d.date
         AND s.store_id = d.store_id
-    LEFT JOIN read_csv_auto('data/markdowns.csv') m 
+    LEFT JOIN read_csv_auto('ml-zoomcamp-2024-competition/markdowns.csv') m 
         ON s.item_id = m.item_id 
         AND s.date = m.date
         AND s.store_id = m.store_id
-    LEFT JOIN read_csv_auto('data/price_history_cleaned.csv') ph
+    LEFT JOIN read_csv_auto('ml-zoomcamp-2024-competition/price_history_cleaned.csv') ph
         ON s.item_id = ph.item_id
         AND s.date = ph.date 
         AND s.store_id = ph.store_id
