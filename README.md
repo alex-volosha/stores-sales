@@ -1,4 +1,4 @@
-### REtail stores sales prediction
+# Retail store sales prediction
 * The dataset I used is from our Kaggle competition: https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/data  
 
 * This dataset contains sales information from four stores of one of the retailers over 25 months. Participants are expected to use these files to develop models that can predict customer demand.   
